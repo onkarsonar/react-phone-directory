@@ -1,11 +1,20 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 class App extends Component {
 
-  render() { 
+  render() {
     return (
-    <div>
-   Phone directory
-    </div>
+      <div>
+        {/* <div className="header">
+          Phone Directory
+        </div>
+        <button>Add</button>
+        <div>
+          <span>Name</span><br />
+          <span>Phone</span>
+        </div> */}
+        <label htmlFor="name">Name:</label>
+        <input type="text" placeholder="Enter Name" id="name" defaultValue="onkar"></input>
+      </div>
     );
   }
 }
